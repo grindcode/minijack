@@ -1,0 +1,34 @@
+{
+  "name": "minijack",
+  "version": "0.1.0",
+  "description": "Log a tagged value on the developer console, and then return the value.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "report": "nyc tape test/*.js && nyc report --reporter=text-lcov | codeclimate-test-reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grindcode/minijack.git"
+  },
+  "keywords": [
+    "elm",
+    "debug",
+    "log",
+    "console",
+    "inline",
+    "tagged",
+    "tap"
+  ],
+  "author": "Isis T. Baulig <grindcode@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grindcode/minijack/issues"
+  },
+  "homepage": "https://github.com/grindcode/minijack#readme",
+  "devDependencies": {
+    "codeclimate-test-reporter": "^0.5.0",
+    "nyc": "^11.4.1",
+    "tape": "^4.8.0"
+  }
+}
