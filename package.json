@@ -29,6 +29,6 @@
   "devDependencies": {
     "codeclimate-test-reporter": "^0.5.0",
     "nyc": "^11.4.1",
-    "tape": "^4.8.0"
+    "tape": "^5.0.0"
   }
 }
