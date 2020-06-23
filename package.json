@@ -4,8 +4,7 @@
   "description": "Log a tagged value on the developer console, and then return the value.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js",
-    "report": "nyc tape test/*.js && nyc report --reporter=text-lcov | codeclimate-test-reporter"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -27,8 +26,6 @@
   },
   "homepage": "https://github.com/grindcode/minijack#readme",
   "devDependencies": {
-    "codeclimate-test-reporter": "^0.5.0",
-    "nyc": "^11.4.1",
     "tape": "^4.8.0"
   }
 }

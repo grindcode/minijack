@@ -12,7 +12,7 @@ npm install minijack
 
 ## API
 ### minijack(value [, substn, ..., fn])
-Passes `value` and `substr` to console.log or executes `fn`, and then returns `value`.
+Passes `value` and `substn` to console.log or `fn`, and then returns `value`.
 * `value`: First value passed to the logging function, and then returned. (**Any**)
 * `substn`: Optional. Subsequent values passed to the logging function. (**Any**)
 * `fn`: Optional. Logging function to use. Default is `console.log`. (**Function**)
@@ -21,10 +21,13 @@ Passes `value` and `substr` to console.log or executes `fn`, and then returns `v
 ```javascript
 const minijack = require('minijack')
 
-const value = (value) => minijack(value)
+const value = minijack(value)
 // → Logs and returns value.
 
-const value = (value) => minijack(value, 'is the sample value', console.error)
+const value = minijack(value, console.error)
+// → Logs value using console.error. Returns value.
+
+const value = minijack(value, 'is the sample value', console.error)
 // → Logs value and 'is the sample value' using console.error. Returns value.
 ```
 
