@@ -1,7 +1,6 @@
 # Minijack
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/grindcode/minijack.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/grindcode/minijack.svg?branch=master)](https://travis-ci.org/grindcode/minijack) [![Test Coverage](https://codeclimate.com/github/grindcode/minijack/badges/coverage.svg)](https://codeclimate.com/github/grindcode/minijack/coverage) [![Dependency Status](https://david-dm.org/grindcode/minijack.svg)](https://david-dm.org/grindcode/minijack) [![devDependency Status](https://david-dm.org/grindcode/minijack/dev-status.svg)](https://david-dm.org/grindcode/minijack#info=devDependencies)
+[![Build Status](https://travis-ci.org/grindcode/minijack.svg?branch=master)](https://travis-ci.org/grindcode/minijack) [![Dependency Status](https://david-dm.org/grindcode/minijack.svg)](https://david-dm.org/grindcode/minijack) [![devDependency Status](https://david-dm.org/grindcode/minijack/dev-status.svg)](https://david-dm.org/grindcode/minijack#info=devDependencies)
 
 Inline logging inspired by Elm's Debug.log
 
